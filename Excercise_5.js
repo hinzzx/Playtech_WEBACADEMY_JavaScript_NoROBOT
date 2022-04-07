@@ -11,9 +11,11 @@ let students = [
   { name: "Yavor", socre: 6 },
 ];
 
-// new array with all students with socre > 5.5
+
 
 function getStudents(students) {
+  // масив, в който ще записваме отличните студенти
+  
   let excellentStudents = [];
   for (let i = 0; i < students.length; i++) {
     if (students[i].socre > 5.5) {
