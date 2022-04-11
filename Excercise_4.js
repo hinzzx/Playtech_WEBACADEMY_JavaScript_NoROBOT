@@ -11,7 +11,7 @@ let products = [
 
 // Функция за категоризиране на продуктите
 
-function categorizeProducts(products) {
+const categorizeProducts = (products) => {
   let categorizedProducts = {
     cheap: [],
     normal: [],
