@@ -12,7 +12,7 @@ for (let i = 0; i < numbers.length; i++) {
 
 // чрез функция
 
-function positiveNums (numbers) {
+const positiveNums = (numbers) => {
   let positive = [];
   for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] > 0) {
