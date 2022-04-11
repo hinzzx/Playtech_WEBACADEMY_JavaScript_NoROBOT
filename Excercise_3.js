@@ -19,5 +19,5 @@ const positiveNums = (numbers) => {
       positive.push(numbers[i]);
     }
   }
-  return positive.join(" ");
+  return positive.join(" "); // Използвам .join, за по-добра четимост
 }
